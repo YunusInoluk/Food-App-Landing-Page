@@ -115,7 +115,7 @@ ul li {
   font-size: 1.5rem;
   letter-spacing: 0.2px;
   color: #f6f6f6;
-  margin-bottom: 6.25rem;
+  margin-bottom: 3.25rem;
 }
 .hero .container .btn-primary {
   background-color: #fa4a0c;
@@ -125,6 +125,14 @@ ul li {
 .hero .container .btn-secondary {
   color: #fff;
   border: 1px solid #fff;
+}
+.hero .phones {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 548px;
+  bottom: -33rem;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=style.css.map */
