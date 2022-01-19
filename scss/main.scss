@@ -1,3 +1,5 @@
 // Import base
-@import "./base/colors", "./base/default", "./base/fonts";
+@import "./base/variables";
+@import "./base/globals";
 // Import Layout
+@import "./layout/header";

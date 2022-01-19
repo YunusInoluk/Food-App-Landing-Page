@@ -1,0 +1,35 @@
+.header {
+  padding: 1.75rem 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: $font-md;
+    @media (max-width: 960px) {
+      padding: 0 1.5rem;
+    }
+    .header-menu {
+      color: $secondary-color;
+      @media (max-width: 960px) {
+        display: none;
+      }
+      .active {
+        color: $primary-color;
+      }
+      .header-link {
+        padding: 0.625rem;
+        margin-left: 5.875rem;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+    .header-hamburger {
+      display: none;
+      @media (max-width: 960px) {
+        display: block;
+      }
+    }
+  }
+}
