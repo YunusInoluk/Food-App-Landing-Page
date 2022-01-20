@@ -153,13 +153,18 @@ h1 {
   margin: 4rem auto;
   background-color: #e4e4e4;
 }
-.how-works .container .first-step {
+.how-works .container .first-step,
+.how-works .container .second-step,
+.how-works .container .third-step {
   display: flex;
 }
-.how-works .container .first-step .left {
+.how-works .container .second-step {
+  margin: 5rem 0;
+}
+.how-works .container .left {
   width: 50%;
 }
-.how-works .container .first-step .right {
+.how-works .container .right {
   display: flex;
   width: 50%;
   padding: 0 2rem;
@@ -167,16 +172,16 @@ h1 {
   text-align: left;
   justify-content: center;
 }
-.how-works .container .first-step .right .title {
+.how-works .container .right .title {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-.how-works .container .first-step .right .subtitle {
+.how-works .container .right .subtitle {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   color: #fa4a0c;
 }
-.how-works .container .first-step .right .description {
+.how-works .container .right .description {
   font-size: 1rem;
   width: 20rem;
   color: #737373;
