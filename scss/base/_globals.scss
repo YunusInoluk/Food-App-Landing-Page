@@ -38,3 +38,12 @@ h1 {
   border-radius: 1.875rem;
   font-weight: bold;
 }
+.btn-primary {
+  background-color: $primary-color;
+  color: $white;
+  margin-right: 2.125rem;
+}
+.btn-secondary {
+  color: $white;
+  border: 1px solid $white;
+}
