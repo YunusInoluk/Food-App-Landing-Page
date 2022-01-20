@@ -1,0 +1,23 @@
+.footer {
+  padding: 4rem 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .social-icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 10rem;
+      img {
+        cursor: pointer;
+      }
+    }
+    .copyright {
+      color: #5c5c5c;
+      font-size: 0.75rem;
+      font-weight: bold;
+    }
+  }
+}
