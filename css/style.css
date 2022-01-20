@@ -29,6 +29,10 @@ ul li {
   list-style-type: none;
 }
 
+h1 {
+  color: #252f42;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -36,7 +40,7 @@ ul li {
 
 .btn {
   padding: 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   border-radius: 1.875rem;
   font-weight: bold;
 }
@@ -106,13 +110,14 @@ ul li {
   z-index: 1;
 }
 .hero .container .hero-title {
-  font-size: 3.625rem;
+  font-size: 3rem;
   max-width: 1000px;
   letter-spacing: 0.2px;
   margin-bottom: 1rem;
+  color: #fff;
 }
 .hero .container .hero-desc {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   letter-spacing: 0.2px;
   color: #f6f6f6;
   margin-bottom: 3.25rem;
@@ -133,6 +138,48 @@ ul li {
   width: 548px;
   bottom: -33rem;
   z-index: 2;
+}
+
+.how-works {
+  margin-top: 32rem;
+  text-align: center;
+}
+.how-works .container .how-works-title {
+  font-weight: 600;
+}
+.how-works .container .divider {
+  width: 70%;
+  height: 1px;
+  margin: 4rem auto;
+  background-color: #e4e4e4;
+}
+.how-works .container .first-step {
+  display: flex;
+}
+.how-works .container .first-step .left {
+  width: 50%;
+}
+.how-works .container .first-step .right {
+  display: flex;
+  width: 50%;
+  padding: 0 2rem;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+.how-works .container .first-step .right .title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.how-works .container .first-step .right .subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #fa4a0c;
+}
+.how-works .container .first-step .right .description {
+  font-size: 1rem;
+  width: 20rem;
+  color: #737373;
 }
 
 /*# sourceMappingURL=style.css.map */
