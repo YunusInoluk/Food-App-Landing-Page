@@ -127,6 +127,11 @@ h1 {
   margin-bottom: 1rem;
   color: #fff;
 }
+@media (max-width: 960px) {
+  .hero .container .hero-title {
+    font-size: 2rem;
+  }
+}
 .hero .container .hero-desc {
   font-size: 1.2rem;
   letter-spacing: 0.2px;
@@ -162,6 +167,9 @@ h1 {
 }
 .how-works .container .second-step {
   margin: 5rem 0;
+}
+.how-works .container .second-step .right {
+  margin-left: 6rem;
 }
 .how-works .container .left {
   width: 50%;
@@ -243,6 +251,100 @@ h1 {
   color: #5c5c5c;
   font-size: 0.75rem;
   font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  .hero {
+    background: unset;
+    color: #252f42;
+  }
+  .hero .container {
+    padding: 0 1rem;
+  }
+  .hero .container .app-name {
+    font-size: 1rem;
+    color: #737373;
+    margin-bottom: 2rem;
+  }
+  .hero .container .hero-title {
+    color: #252f42;
+    margin-bottom: 2rem;
+  }
+  .hero .container .hero-desc {
+    color: #737373;
+    font-size: 1.5rem;
+  }
+  .hero .container .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero .container .buttons .btn {
+    width: 40%;
+    font-size: 0.875rem;
+  }
+  .hero .container .buttons .btn-primary {
+    margin-right: unset;
+    margin-bottom: 1rem;
+  }
+  .hero .container .btn-secondary {
+    color: #fa4a0c;
+    border: 1px solid #fa4a0c;
+  }
+  .hero::after {
+    background-color: #fafafa;
+  }
+  .hero .phones {
+    width: 470px;
+    margin-left: -5rem;
+  }
+
+  .how-works .container .first-step,
+.how-works .container .second-step,
+.how-works .container .third-step {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .how-works .container .first-step .left,
+.how-works .container .second-step .left,
+.how-works .container .third-step .left {
+    width: 100%;
+    text-align: center;
+  }
+  .how-works .container .first-step .right,
+.how-works .container .second-step .right,
+.how-works .container .third-step .right {
+    width: 100%;
+    text-align: center;
+    padding-top: 4rem;
+  }
+  .how-works .container .first-step .right .description,
+.how-works .container .second-step .right .description,
+.how-works .container .third-step .right .description {
+    width: 100%;
+  }
+  .how-works .container .second-step {
+    flex-direction: column-reverse;
+  }
+  .how-works .container .second-step .right {
+    margin-left: unset;
+  }
+
+  .download-app {
+    background: unset;
+  }
+  .download-app::after {
+    background-color: #252f42;
+  }
+  .footer .container {
+    flex-direction: column;
+  }
+  .footer .container .logo {
+    display: none;
+  }
+  .footer .container .copyright {
+    margin-top: 1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,98 @@
+@media (max-width: 960px) {
+  // HERO SECTION
+  .hero {
+    background: unset;
+    color: $secondary-color;
+    .container {
+      padding: 0 1rem;
+      .app-name {
+        font-size: 1rem;
+        color: $text-color;
+        margin-bottom: 2rem;
+      }
+      .hero-title {
+        color: $secondary-color;
+        margin-bottom: 2rem;
+      }
+      .hero-desc {
+        color: $text-color;
+        font-size: 1.5rem;
+      }
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .btn {
+          width: 40%;
+          font-size: 0.875rem;
+        }
+        .btn-primary {
+          margin-right: unset;
+          margin-bottom: 1rem;
+        }
+      }
+      .btn-secondary {
+        color: $primary-color;
+        border: 1px solid $primary-color;
+      }
+    }
+    &::after {
+      background-color: #fafafa;
+    }
+    .phones {
+      width: 470px;
+      margin-left: -5rem;
+    }
+  }
+  // HOW IT WORKS SECTION
+  .how-works {
+    .container {
+      .first-step,
+      .second-step,
+      .third-step {
+        // flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        .left {
+          width: 100%;
+          text-align: center;
+        }
+        .right {
+          width: 100%;
+          text-align: center;
+          padding-top: 4rem;
+          .description {
+            width: 100%;
+          }
+        }
+      }
+      .second-step {
+        flex-direction: column-reverse;
+        .right {
+          margin-left: unset;
+        }
+      }
+    }
+  }
+  // DOWNLOAD APP SECTION
+  .download-app {
+    background: unset;
+    &::after {
+      background-color: $secondary-color;
+    }
+    .container {
+    }
+  }
+  // FOOTER SECTION
+  .footer {
+    .container {
+      flex-direction: column;
+      .logo {
+        display: none;
+      }
+      .copyright {
+        margin-top: 1rem;
+      }
+    }
+  }
+}

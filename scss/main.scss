@@ -1,9 +1,11 @@
 // Import base
 @import "./base/variables";
 @import "./base/globals";
+
 // Import Layout
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/how-work";
 @import "./layout/download-app";
 @import "./layout/footer";
+@import "./layout/responsive";
