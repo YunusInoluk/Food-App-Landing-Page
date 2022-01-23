@@ -102,7 +102,7 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url(../../assets/images/hero-img.jpg) no-repeat center center;
+  background: url(../assets/images/hero-img.jpg) no-repeat center center;
   background-size: cover;
   height: calc(100vh - 140px);
   position: relative;
@@ -202,7 +202,7 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url(../../assets/images/download-app-bg.jpg) no-repeat center center;
+  background: url(../assets/images/download-app-bg.jpg) no-repeat center center;
   color: #fff;
   position: relative;
   height: 31.81rem;
