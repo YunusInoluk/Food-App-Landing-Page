@@ -56,6 +56,10 @@ h1 {
   border: 1px solid #fff;
 }
 
+.show {
+  display: flex;
+}
+
 .header {
   padding: 1.75rem 0;
 }
@@ -65,18 +69,8 @@ h1 {
   align-items: center;
   font-size: 1rem;
 }
-@media (max-width: 960px) {
-  .header .container {
-    padding: 0 1.5rem;
-  }
-}
 .header .container .header-menu {
   color: #252f42;
-}
-@media (max-width: 960px) {
-  .header .container .header-menu {
-    display: none;
-  }
 }
 .header .container .header-menu .active {
   color: #fa4a0c;
@@ -87,6 +81,9 @@ h1 {
 }
 .header .container .header-menu .header-link:hover {
   color: #fa4a0c;
+}
+.header .container .header-menu .close {
+  display: none;
 }
 .header .container .header-hamburger {
   display: none;
@@ -254,6 +251,34 @@ h1 {
 }
 
 @media (max-width: 960px) {
+  .header .container {
+    padding: 0 1.5rem;
+  }
+  .header .container .header-menu {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 135px;
+    left: 0;
+    z-index: 10;
+    background: #fff;
+    padding: 1.5rem 0;
+    border-top: 1px solid #ddd;
+  }
+  .header .container .header-menu .header-link {
+    margin-left: unset;
+    padding: 1rem 0;
+  }
+  .header .container .header-menu .close {
+    display: block;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    cursor: pointer;
+  }
+
   .hero {
     background: unset;
     color: #252f42;
@@ -336,6 +361,7 @@ h1 {
   .download-app::after {
     background-color: #252f42;
   }
+
   .footer .container {
     flex-direction: column;
   }

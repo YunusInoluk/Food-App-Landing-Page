@@ -1,4 +1,34 @@
 @media (max-width: 960px) {
+  // HEADER
+  .header {
+    .container {
+      padding: 0 1.5rem;
+      .header-menu {
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 135px;
+        left: 0;
+        z-index: 10;
+        background: #fff;
+        padding: 1.5rem 0;
+        border-top: 1px solid #ddd;
+        .header-link {
+          margin-left: unset;
+          padding: 1rem 0;
+        }
+        .close {
+          display: block;
+          position: absolute;
+          top: 1.5rem;
+          right: 1.5rem;
+          cursor: pointer;
+        }
+      }
+    }
+  }
   // HERO SECTION
   .hero {
     background: unset;
@@ -79,8 +109,6 @@
     background: unset;
     &::after {
       background-color: $secondary-color;
-    }
-    .container {
     }
   }
   // FOOTER SECTION

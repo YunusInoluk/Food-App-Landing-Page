@@ -5,13 +5,10 @@
     justify-content: space-between;
     align-items: center;
     font-size: $font-md;
-    @media (max-width: 960px) {
-      padding: 0 1.5rem;
-    }
+
     .header-menu {
       color: $secondary-color;
       @media (max-width: 960px) {
-        display: none;
       }
       .active {
         color: $primary-color;
@@ -23,6 +20,9 @@
         &:hover {
           color: $primary-color;
         }
+      }
+      .close {
+        display: none;
       }
     }
     .header-hamburger {
